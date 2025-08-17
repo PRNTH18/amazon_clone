@@ -11,7 +11,7 @@
 /* amz_logo */
 .logo_box{width: 130px;height: 65px;}
 .amz_logo{
-    background-image:url('download.png');
+    background-image:url('images/download.png');
     width: 100%; height: 60px;
     background-size: cover;
     padding: 0px 8px 0px 6px;
@@ -178,7 +178,7 @@
     width:100%; height:100%;
     background-image:
     linear-gradient(to bottom, rgba(225,225,225,0.1)70%, rgba(227,230,230,1)100%),
-    url(71xHyqBwdcL._SX3000_.jpg);
+    url(images/71xHyqBwdcL._SX3000_.jpg);
     background-size:cover;
     background-position:center;
 }
@@ -504,7 +504,7 @@
     height: 37px;
     width: 76px;
     padding: 0px 8px;
-    background-image: url(ama.jpeg);
+    background-image: url(images/ama.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     margin-right: 90px;
