@@ -15,7 +15,7 @@
                 <div class="logo_box">
                     <div class="amz_logo"></div>
                 </div>
-                    <!-- location -->
+                <!-- location -->
                 <div class="location_box">
                     <div class="address_box">
                         <div class="delivery"><p>Deliver to</p></div>
@@ -27,7 +27,11 @@
                 </div>
                     <!-- search bar -->
                 <div class="search_box">
-                    <select class="select_box"><option>All</option></select>
+                    <div class="select_box">
+                        <span id="selected_text">ALL</span> 
+                        <span><i class="fa-solid fa-angle-down"></i></span>
+                    </div>
+
                     <input class="type_box"  placeholder="Search Amazon">
                     <div class="search_icon"><i class="fa-solid fa-magnifying-glass"></i></div>
                 </div>
@@ -646,6 +650,39 @@
                 </div>
             </div>
         </main>  
+
+
+       <div id="overlay"></div>
+        <!-- pop up model when clicked in the location box -->
+        <div id = "locationmodel" class="modal">
+            <div id="modelcontent">
+                <div id="head_lineContent" class="heading">
+                    <h2>Choose your location</h2>
+                    <span id="cross_botton">&times;</span>
+                </div>
+                <div id="address_list" class="popup_address_box">
+
+                    <span>Select a delivery location to see product availability and delivery options</span>
+                    <span id="sigining_bottom" class="singing_box"><p>Sign in to see your addresses</p></span>
+
+                    <div class="pincode_line">
+                        <div class="line_01"></div>
+                        <div class="content_line">or enter an Indian pincode</div>
+                        <div class="line_01"></div>
+                    </div>
+                    <div style="height: 30px;"></div>
+
+                    <div class="addss_input">
+                        <input type="hello">
+                        <span class="apply_bottom">Apply</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="height: 500px;"></div>
+        <ul class="dropdown_list"></ul>
+         
+        <!--  -->
 
     <script src="index.js"></script>
 </body>
